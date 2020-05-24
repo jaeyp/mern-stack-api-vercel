@@ -79,7 +79,7 @@ cron.schedule("* 02 20 * *", () => {
 
 ### References
 [Create and Deploy a MongoDB-Powered Node.js API with Vercel](https://vercel.com/guides/deploying-a-mongodb-powered-api-with-node-and-vercel)  
-[Vercel Configuration - routes](https://vercel.com/docs/configuration#project/routes)
-[Scheduling Cron Jobs in Node.js](https://dev.to/akhildhiman/scheduling-cron-jobs-in-node-js-15f)
-[Nodemailer - Using Gmail](https://nodemailer.com/usage/using-gmail/)
-[Google Account Help - Less secure apps & your Google Account](https://support.google.com/accounts/answer/6010255)
+[Vercel Configuration - routes](https://vercel.com/docs/configuration#project/routes)  
+[Scheduling Cron Jobs in Node.js](https://dev.to/akhildhiman/scheduling-cron-jobs-in-node-js-15f)  
+[Nodemailer - Using Gmail](https://nodemailer.com/usage/using-gmail/)  
+[Google Account Help - Less secure apps & your Google Account](https://support.google.com/accounts/answer/6010255)  
