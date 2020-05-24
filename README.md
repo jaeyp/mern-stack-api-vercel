@@ -37,7 +37,7 @@ You can get the connection string by clicking "Connect" on the Cluster Overview 
 * Using gmail with Nodemailer
 > It's important to note that we're using gmail as the service. 
 > In order to use it, we will have to turn on the less secure app feature.
-> * [Setup - Less secure app access](https://myaccount.google.com/lesssecureapps)
+> [Setup - Less secure app access](https://myaccount.google.com/lesssecureapps)
 
 * Scheduling cron job
 ```javascript
@@ -78,8 +78,8 @@ cron.schedule("* 02 20 * *", () => {
 ```
 
 ### References
-* [Create and Deploy a MongoDB-Powered Node.js API with Vercel](https://vercel.com/guides/deploying-a-mongodb-powered-api-with-node-and-vercel)  
-* [Vercel Configuration - routes](https://vercel.com/docs/configuration#project/routes)
-* [Scheduling Cron Jobs in Node.js](https://dev.to/akhildhiman/scheduling-cron-jobs-in-node-js-15f)
-* [Nodemailer - Using Gmail](https://nodemailer.com/usage/using-gmail/)
-* [Google Account Help - Less secure apps & your Google Account](https://support.google.com/accounts/answer/6010255)
+[Create and Deploy a MongoDB-Powered Node.js API with Vercel](https://vercel.com/guides/deploying-a-mongodb-powered-api-with-node-and-vercel)  
+[Vercel Configuration - routes](https://vercel.com/docs/configuration#project/routes)
+[Scheduling Cron Jobs in Node.js](https://dev.to/akhildhiman/scheduling-cron-jobs-in-node-js-15f)
+[Nodemailer - Using Gmail](https://nodemailer.com/usage/using-gmail/)
+[Google Account Help - Less secure apps & your Google Account](https://support.google.com/accounts/answer/6010255)
