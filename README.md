@@ -6,9 +6,9 @@ Deployment example for MERN stack API with Vercel (ZEIT Now)
 [Network Access at Atlas](https://cloud.mongodb.com/v2/5ec174057fecfb55f3e8f6e8#security/network/whitelist)
 
 * To use your MongoDB connection string without hard-coding it in your project, you can add your connection string to the project as a Secret using the Vercel CLI to keep them secure:
-```bash
-~$ vercel secrets add my-mongodb-uri mongodb+srv://<user>:<password>@my-cluster-uf345.mongodb.net/<database-name>?retryWrites=true
-```
+> ```bash
+> ~$ vercel secrets add my-mongodb-uri mongodb+srv://<user>:<password>@my-cluster-uf345.mongodb.net/<database-name>?retryWrites=true
+> ```
 
 * To support API endpoints, make sure that routes are configured in vercel.json  
 [Vercel Configuration - routes](https://vercel.com/docs/configuration#project/routes)
