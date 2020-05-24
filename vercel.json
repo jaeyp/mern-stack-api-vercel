@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "env": {
+        "MONGODB_URI": "@my-mongodb-uri"
+    },
+    "routes": [
+        { "src": "/", "methods": ["GET"], "dest": "/api/index.js" },
+        { "src": "/api/test", "methods": ["GET"], "dest": "/api/index.js" },
+        { "src": "/api", "methods": ["GET"], "dest": "/api/index.js" },
+        { "src": "/api", "methods": ["POST"], "dest": "/api/index.js" },
+        { "src": "/api/(?<id>[^/]*)", "dest": "/api/index.js?id=$id" }
+    ]
+}
