@@ -18,9 +18,15 @@ Deployment example for MERN stack API with Vercel (ZEIT Now)
 ~$ yarn start
 ```
 
-### Test Vercel
+### Test Local Deployment
 ```bash
 ~$ vercel dev
+```
+
+### Deploy Server
+```bash
+~$ vercel
+~$ vercel --prod
 ```
 
 ### References
