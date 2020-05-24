@@ -16,6 +16,8 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongoose": "^5.9.15",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.6",
     "validation": "0.0.1"
   },
   "devDependencies": {

@@ -33,6 +33,53 @@ You can get the connection string by clicking "Connect" on the Cluster Overview 
 ~$ vercel --prod
 ```
 
+### Other Environments and Configurations
+* Using gmail with Nodemailer
+> It's important to note that we're using gmail as the service. 
+> In order to use it, we will have to turn on the less secure app feature.
+> * [Setup - Less secure app access](https://myaccount.google.com/lesssecureapps)
+
+* Scheduling cron job
+```javascript
+┌──────────────── second (optional) 
+| ┌────────────── minute 
+| | ┌──────────── hour 
+| | | ┌────────── day of month 
+| | | | ┌──────── month 
+| | | | | ┌────── day of week
+| | | | | | 
+| | | | | |
+* * * * * *
+
+//For a cron job to run every second
+cron.schedule("* * * * * *", () => {
+    //code to be executed
+})
+
+//This will run every 10 seconds
+cron.schedule("*/10 * * * * *", () => {
+    //code to be executed
+})
+
+//This will run at the start of every minute
+cron.schedule("0 * * * * *", () => {
+    //code to be executed
+})
+
+//This will run at the start of every hour
+cron.schedule("0 * * * *", () => {
+    //code to be executed
+})
+
+// This will run on 20th of every month at 02:00 hours
+cron.schedule("* 02 20 * *", () => {
+    //code to be executed
+})
+```
+
 ### References
-[Create and Deploy a MongoDB-Powered Node.js API with Vercel](https://vercel.com/guides/deploying-a-mongodb-powered-api-with-node-and-vercel)  
-[Vercel Configuration - routes](https://vercel.com/docs/configuration#project/routes)
+* [Create and Deploy a MongoDB-Powered Node.js API with Vercel](https://vercel.com/guides/deploying-a-mongodb-powered-api-with-node-and-vercel)  
+* [Vercel Configuration - routes](https://vercel.com/docs/configuration#project/routes)
+* [Scheduling Cron Jobs in Node.js](https://dev.to/akhildhiman/scheduling-cron-jobs-in-node-js-15f)
+* [Nodemailer - Using Gmail](https://nodemailer.com/usage/using-gmail/)
+* [Google Account Help - Less secure apps & your Google Account](https://support.google.com/accounts/answer/6010255)
